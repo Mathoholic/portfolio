@@ -9,8 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #2c3e50; /* Dark background color */
+    color: #ecf0f1; /* Light text color */
     padding: 20px;
 }
 
@@ -18,10 +18,10 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: #fff;
+    background: #34495e; /* Darker container background */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Navigation Styling */
@@ -31,7 +31,7 @@ body {
 }
 
 .navigation a {
-    color: #007bff;
+    color: #ecf0f1; /* Light color for links */
     text-decoration: none;
     font-weight: 600;
     margin: 0 10px;
@@ -45,13 +45,14 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #444;
+    color: #ecf0f1; /* Light color for headings */
     margin-bottom: 20px;
 }
 
 h2 {
     font-size: 1.5rem;
     font-weight: 600;
+    color: #ecf0f1; /* Light color for subheadings */
     margin: 20px 0 10px;
 }
 
@@ -62,7 +63,7 @@ p {
 }
 
 a {
-    color: #007bff;
+    color: #3498db; /* Light blue color for links */
     text-decoration: none;
 }
 
@@ -86,5 +87,37 @@ footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9rem;
-    color: #666;
+    color: #ecf0f1; /* Light color for footer text */
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .navigation {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
