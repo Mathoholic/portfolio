@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Styling */
+.navigation {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+
+/* Paragraph and Link Styling */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
