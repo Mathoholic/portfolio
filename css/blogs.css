@@ -9,8 +9,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #2c3e50; /* Darker background color */
+    color: #ecf0f1; /* Lighter text color */
     padding: 20px;
 }
 
@@ -18,10 +18,10 @@ body {
 .container {
     max-width: 900px;
     margin: auto;
-    background: #fff;
+    background: #34495e; /* Darker container background */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Navigation Styling */
@@ -31,7 +31,7 @@ body {
 }
 
 .navigation a {
-    color: #007bff;
+    color: #ecf0f1; /* Lighter color for links */
     text-decoration: none;
     font-weight: 600;
     margin: 0 10px;
@@ -45,8 +45,15 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #444;
+    color: #ecf0f1; /* Lighter color for headings */
     margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ecf0f1; /* Lighter color for subheadings */
+    margin: 20px 0 10px;
 }
 
 /* Blog List Styling */
@@ -57,8 +64,8 @@ h1 {
 .blog-item {
     margin-bottom: 30px;
     padding: 20px;
-    border-left: 4px solid #007bff;
-    background-color: #fafafa;
+    border-left: 4px solid #3498db; /* Light blue color for border */
+    background-color: #2c3e50; /* Darker background for blog items */
     border-radius: 5px;
 }
 
@@ -66,7 +73,7 @@ h1 {
     font-size: 1.8rem;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #007bff;
+    color: #ecf0f1; /* Lighter color for blog headings */
 }
 
 .blog-item h2 a {
@@ -80,7 +87,7 @@ h1 {
 
 .blog-item p {
     font-size: 1rem;
-    color: #666;
+    color: #bdc3c7; /* Lighter grey for paragraph text */
     margin-bottom: 10px;
 }
 
@@ -89,5 +96,75 @@ footer {
     text-align: center;
     margin-top: 40px;
     font-size: 0.9rem;
-    color: #666;
+    color: #bdc3c7; /* Lighter grey for footer text */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .navigation {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .navigation a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .blog-item {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .blog-item h2 {
+        font-size: 1.6rem;
+    }
+
+    .blog-item p {
+        font-size: 0.9rem;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .navigation a {
+        font-size: 0.9rem;
+    }
+
+    .blog-item {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .blog-item h2 {
+        font-size: 1.4rem;
+    }
+
+    .blog-item p {
+        font-size: 0.8rem;
+    }
 }

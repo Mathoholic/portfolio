@@ -92,7 +92,7 @@ footer {
 
 /* Media Queries for Responsiveness */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navigation {
         text-align: center;
         margin-bottom: 15px;
