@@ -4,7 +4,7 @@ seoTitle: "Speed Up Python with Dictionary Lookups"
 seoDescription: "Optimize Python code efficiency using dictionary lookups for fast data access and improved performance. Learn how it works and best use cases"
 datePublished: Mon Aug 12 2024 03:48:38 GMT+0000 (Coordinated Universal Time)
 cuid: clzqgexez000l0alefk3i5oy5
-slug: python-dictionary-lookups-01
+slug: pythondictionarylookups01
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723434128903/ba28b92a-2e1a-4b6b-acd5-831ef7b69b45.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723434282322/3d04464c-6727-496a-8d12-f612547445f8.png
 tags: python, python3, dictionary, python-beginner
